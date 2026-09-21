@@ -1,4 +1,3 @@
-import { founder } from "./founder";
 
 export interface SlideData {
   id: string;

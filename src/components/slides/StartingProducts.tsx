@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { products } from '../../content/deck';
-import type { SlideData } from '../../content/deck';
 import { founder } from '../../content/founder';
-import { Chip } from '../Chips';
 import { ExternalLink, Filter } from 'lucide-react';
 
 export const StartingProducts: React.FC = () => {

@@ -1,5 +1,4 @@
 import React from 'react';
-import { BigNumber } from '../Typography';
 import { Chip } from '../Chips';
 
 export const UnitEconomics: React.FC = () => {

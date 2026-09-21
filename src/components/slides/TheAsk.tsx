@@ -41,7 +41,7 @@ export const TheAsk: React.FC = () => {
                   {funds.map((entry, index) => <Cell key={`cell-${index}`} fill={entry.color} />)}
                 </Pie>
                 <Tooltip 
-                  formatter={(value: number) => `$${value}`}
+                  formatter={(value: any) => `$${value}`}
                   contentStyle={{ backgroundColor: '#0B132B', border: '1px solid rgba(255,255,255,0.2)', color: '#FBF6EC', borderRadius: '8px' }}
                 />
               </PieChart>

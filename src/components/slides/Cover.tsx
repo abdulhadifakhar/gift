@@ -1,6 +1,5 @@
 import React from 'react';
 import { Chip } from '../Chips';
-import { Play } from 'lucide-react';
 
 export const Cover: React.FC = () => {
   const xmas = new Date('2026-12-25T00:00:00');

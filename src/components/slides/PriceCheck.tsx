@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Tag, Search, DollarSign } from 'lucide-react';
+import { Tag, Search, DollarSign } from 'lucide-react';
 import { Chip } from '../Chips';
 
 export const PriceCheck: React.FC = () => {

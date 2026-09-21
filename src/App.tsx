@@ -1,4 +1,3 @@
-import React from 'react';
 import { SlideController } from './components/SlideController';
 
 function App() {
